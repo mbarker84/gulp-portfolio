@@ -1,0 +1,79 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3121618, 2015-11-08T08:30:26-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: BlogScript by Sudtipos
+ * URL: http://www.myfonts.com/fonts/sudtipos/blog-script/bold/
+ * Copyright: Copyright (c) 2015 by Carolina Marando and Alejandro Paul. All rights reserved. www.sudtipos.com, with Reserved Font Name &#x0022;Blog Script&#x0022;
+ * Licensed pageviews: 10,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3121618
+ * 
+ * © 2015 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2fa1d2");
+
+  
+@font-face {font-family: 'BlogScript';src: url('webfonts/2FA1D2_0_0.eot');src: url('../fonts/2FA1D2_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2FA1D2_0_0.woff2') format('woff2'),url('../fonts/2FA1D2_0_0.woff') format('woff'),url('../fonts/2FA1D2_0_0.ttf') format('truetype');}
+ 
+
+h1, h2, h3, p {
+    color: $black;
+}
+
+h1 { 
+    font-family: BlogScript, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    @media (min-width: $bp-m) {
+        font-size: 3em;
+    }
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: .5em;
+    margin-top: 0;
+}
+
+h1.header__logo-text {
+    font-family: 'Noto Serif', serif;
+    font-size: 1.2em;
+    @media (min-width: $bp-m) {
+        font-size: 1.6em;
+    }
+}
+
+h2, h3, p {
+    font-family: 'Noto Serif', serif;
+}
+
+h3 {
+    font-style: italic;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.portfolio__img--main figcaption {
+    font-family: 'Noto Serif', serif;
+    font-size: .9em;
+    font-style: italic;
+    color: $dk-grey;
+    margin-bottom: 1em;
+}

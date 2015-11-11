@@ -1,0 +1,15 @@
+/* Colors */
+$background: #ededf2;
+
+$black: rgb(23, 22, 25);
+$dk-grey: lighten($black, 40%);
+$md-grey: lighten($black, 60%);
+$lt-grey: lighten($black, 80%);
+
+$color1: #e83b7e;
+
+/* Breakpoints */
+$bp-s: 360px;
+$bp-m: 600px;
+$bp-l: 900px;
+$bp-xl: 1300px;
